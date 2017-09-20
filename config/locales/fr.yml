@@ -14,7 +14,7 @@ errors:
         room_type:
         home_type:
         
-    attributes:
+attributes:
     room:
         price: "Le prix"
         address:  "L'adresse" 
