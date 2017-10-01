@@ -39,6 +39,10 @@ class RoomsController < ApplicationController
         @photos = @room.photos   
     end
     
+    def edit    
+        @photos = @room.photos   
+    end
+    
     def update 
 	    if @room.update(room_params)
 	        if params[:images]     
